@@ -1,0 +1,19 @@
+seed: 42
+data:
+  root: mvtec_anomaly_detection
+  categories: [bottle]
+  image_size: 224
+model:
+  backbone: wide_resnet50_2
+  coreset_ratio: 0.05
+  knn_k: 1
+  batch_size: 8
+method:
+  b1_photometric_augmentations: false
+  b2_alignment: false
+  b3_conformal: false
+  target_normal_images: 10
+  conformal_alpha: 0.05
+output:
+  artifacts_dir: artifacts
+

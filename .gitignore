@@ -1,0 +1,15 @@
+# MVTec dataset
+mvtec_anomaly_detection/
+
+# Generated artifacts
+artifacts/
+artifacts_*/
+session-executed/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/

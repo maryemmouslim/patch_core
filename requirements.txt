@@ -1,0 +1,13 @@
+torch>=2.0
+torchvision>=0.15
+numpy
+pillow
+opencv-python
+scikit-learn
+pandas
+matplotlib
+seaborn
+PyYAML
+jupyter
+nbconvert
+ipykernel
